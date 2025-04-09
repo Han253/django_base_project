@@ -22,9 +22,10 @@ El objetivo del quiz es aplicar conocimientos prácticos sobre desarrollo web co
    ```bash
    git clone https://github.com/usuario/proyecto-base-mpa.git
    cd proyecto-base-mpa
+   ```
 
-** Ejecutar el servidor **
+**Ejecutar el servidor**
 
-```bash
-python manage.py runserver
-```
+    ```bash
+    python manage.py runserver
+    ```
