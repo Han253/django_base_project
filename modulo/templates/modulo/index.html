@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto MPA Django</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'modulo/css/index.css' %}">
+</head>
+<body>
+
+<!-- Encabezado y navegación -->
+<header>
+    <nav>
+        <div class="brand">MPA Django</div>
+        <div class="nav-links">
+            <a href="{% url 'index' %}">Inicio</a>
+            <a href="{% url 'admin:index' %}">Administración</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Contenido principal -->
+<main>
+    <h1>Bienvenido al proyecto base MPA con Django</h1>
+    <p>Este es un sitio de ejemplo para el quiz práctico.</p>
+</main>
+
+<!-- Pie de página opcional -->
+<footer>
+    &copy; 2025 Proyecto Académico Django. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
