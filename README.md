@@ -26,6 +26,6 @@ El objetivo del quiz es aplicar conocimientos prácticos sobre desarrollo web co
 
 **Ejecutar el servidor**
 
-    ```bash
-    python manage.py runserver
-    ```
+   ```bash
+   python manage.py runserver
+   ```
